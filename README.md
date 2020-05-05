@@ -1,4 +1,4 @@
-# Yobetit API - Test
+# Yobetit API
 
 ## Live API link examples
 https://yobetit-service.herokuapp.com/countries?query=Valletta
