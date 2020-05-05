@@ -1,0 +1,36 @@
+{
+  "name": "yobetit_service",
+  "version": "0.3.0",
+  "description": "",
+  "engines": {
+    "node": ">=12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "js-search": "^2.0.0",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jascodes/yobetit_service"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

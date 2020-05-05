@@ -1,0 +1,11 @@
+{
+  "name": "YoBetIt",
+  "description": "",
+  "repository": "https://github.com/jascode/yobetit_service",
+  "keywords": [
+    "node",
+    "express",
+    "heroku"
+  ],
+  "image": "heroku/nodejs"
+}
