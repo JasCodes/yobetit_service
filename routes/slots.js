@@ -56,17 +56,17 @@ const shuffle = reelMat => {
   const result = [];
   for (const reel of reelMat) {
     let ranReelIndex = getRandomInt(reel.length);
-    result.push(reel[ranReelIndex]);
+    // result.push(reel[ranReelIndex]);
+    result.push(ranReelIndex)
   }
   return result;
 };
 // console.log(shuffle(reelMat));
 
 router.get("/", function (req, res, next) {
-
   const result = shuffle(reelMat);
   const score = cachedScoreResultHashMap[result] || 0;
-  res.json({ result, score });
+  res.json({ result, score, reels: reelMat });
 });
 
 module.exports = router;
